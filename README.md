@@ -16,13 +16,51 @@ This project enhances low-quality images using Digital Image Processing techniqu
 - Matplotlib
 
 ##  Project Structure
-DIP-Image-Enhancement-System/
-│
-├── code/
-├── images/
-├── results/
-├── README.md
-
+      DIP-Image-Enhancement-System/
+      │
+      ├── code/
+      │   ├── main.py
+      │   ├── functions/
+      │       ├── sampling.py
+      │       ├── transformations.py
+      │       ├── intensity.py
+      │       ├── histogram.py
+      │
+      ├── images/
+      │   ├── input/
+      │   │   ├── normal.png
+      │   │   ├── noisy.png
+      │   │   ├── low_contrast.png
+      │   │   ├── document.png
+      │   │
+      │   ├── output/
+      │       ├── sampling_0.5.png
+      │       ├── sampling_0.25.png
+      │       ├── sampling_1.5.png
+      │       ├── sampling_2.png
+      │       ├── quant_8bit.png
+      │       ├── quant_4bit.png
+      │       ├── quant_2bit.png
+      │       ├── rotate_30.png
+      │       ├── rotate_60.png
+      │       ├── rotate_90.png
+      │       ├── rotate_120.png
+      │       ├── translated.png
+      │       ├── sheared.png
+      │       ├── negative.png
+      │       ├── log.png
+      │       ├── gamma_0.5.png
+      │       ├── gamma_1.5.png
+      │       ├── equalized.png
+      │       ├── final.png
+      │
+      ├── results/
+      │   ├── comparison_tables.txt   (optional)
+      │   ├── observations.txt        (optional)
+      │
+      ├── report.pdf
+      ├── README.md
+      └── requirements.txt
 ##  How to Run
 
 1. Install dependencies:
