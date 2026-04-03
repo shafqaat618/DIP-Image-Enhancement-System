@@ -2,20 +2,20 @@
 Smart Image Enhancement &amp; Analysis System using OpenCV
 # Smart Image Enhancement & Analysis System
 
-## 📌 Description
+##  Description
 This project enhances low-quality images using Digital Image Processing techniques including:
 - Sampling & Quantization
 - Geometric Transformations
 - Intensity Transformations
 - Histogram Equalization
 
-## 🛠 Tools
+##  Tools
 - Python
 - OpenCV
 - NumPy
 - Matplotlib
 
-## 📁 Project Structure
+##  Project Structure
 DIP-Image-Enhancement-System/
 │
 ├── code/
@@ -23,7 +23,7 @@ DIP-Image-Enhancement-System/
 ├── results/
 ├── README.md
 
-## ▶️ How to Run
+##  How to Run
 
 1. Install dependencies:
 pip install opencv-python numpy matplotlib
@@ -32,14 +32,14 @@ pip install opencv-python numpy matplotlib
 cd code
 python main.py
 
-## 📊 Output
+## Output
 All processed images are saved in:
 images/output/
 
-## 🚀 Features
+##  Features
 - Multi-image processing
 - Automatic enhancement pipeline
 - Professional modular code
 
-## 📌 Author
-Your Name
+##  Author
+Your Name Shafqaat Ahmad
